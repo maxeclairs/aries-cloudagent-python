@@ -52,7 +52,7 @@ handled by ACA-Py. Of the items in the previous list, here is what an ACA-Py
 issuer controller does:
 
 - Issuers flag that revocation will be used when creating the CredDef and the
-  desired size of the RevReg. ACA-Py takes case of creating the initial
+  desired size of the RevReg. ACA-Py takes care of creating the initial
   RevReg(s) without further action by the controller.
   - Two RevRegs are initially created, so there is no delay when one fills up,
     and another is needed. In ongoing operations, when one RevReg fills up, the
